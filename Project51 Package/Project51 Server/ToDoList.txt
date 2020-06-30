@@ -1,0 +1,66 @@
+UPDATE 6/22/2020
+MAKE SURE YOU FIX THE INVENTORY NULL BUG WHEN PLAYERS FIRST EQUIP ITEMS
+TRADING POST WORKS MINUS THE ETHOS/ASCEND/ANGUISH NOTED ITEM DUPE,
+trading post if you have more then 2147b in claim then it bugs out
+mystery boxes multiple buggy
+https://www.rune-server.ee/runescape-development/rs2-server/tutorials/689602-how-add-custom-rsps-maps-server-client.html
+https://www.rune-server.ee/runescape-development/rs2-server/tutorials/659571-how-jar-client-eclipse.html
+
+
+
+
+
+AMAZING SUGGESTIONS TO-DO:
+-Somekind of tracker/counter on skilling. For example:
+  -Cutted logs
+  -Lighted logs
+  -Crafted gems
+  -Fished fish
+  -Grown herbs
+  -Hunted Npc's
+  -Crafted runes
+  -Mined rocks
+  -Smithed items
+MAKE A SKILLING BASED BOSS
+-Perhaps use addDamageTaken method from entity.java to apply damage from items used on npc/object
+
+
+Todo: ---- Reading this before uploading for release.. Some of these might be done. - Kid Buu 6/22/2020
+-Make ankous aggressive
+-Update the stats needed to wear all god d'hide items
+-make donator ranks require less killcount to enter GWD boss rooms
+-make kalphite teleport
+-make cerbereus require the proper slayer level to be assigned
+-Revamp pkp shop	your ignore list.
+-make ignore list block yell messages
+-Scythe of vitur and helberds give xp to right skills
+-The max hit of Greater Demons has been lowered to 10 (used to be 16).
+-You can no longer cast Lunar spells on players that are inside the duel arena.
+-Slayer tasks have been revised, especially XP (to match that of OSRS) as well as the descriptions of locations, so it's easier for players.
+-Players can no longer cast vengeance other, heal other, energy transfer or cure other if the other person is in a fight in a single-combat zone.
+-You can now purchase Tarn's diary at the general store for 2M coins to enchant your salve amulet.
+-Insatiable Bloodveld, Mutated Bloodveld and Insatiable mutated Bloodveld now all count toward completion of the Bloodveld slayer task.
+-elite void magic effect
+-Make granite clamp require 50 attack to wear
+Chivlary and piety prayer glows needs reset if you don't have the proper stats
+Revenant imp death animation
+Arclight spec
+Melee zulrah
+Catacombs aggression
+Point shops
+Fix dungeon exit to leave edge dungeon
+Pottery oven @ home
+Remove whip from PvM casket
+Eternal 
+Karuulm Dungeon/Wyrm & Drake progress
+-Added a Death Delay for both wyrms
+-Made Karuulm Dungeon deal damage to players if they climb over rocks to fight any of the npcs on the first floor
+Cave kraken respawns too slow
+Pest control tele not finishing achievement
+
+Make raid capes have different effects/buffs
+- Cape 1 = nothing
+- Cape 2 = 5% damage boost in raids
+- Cape 3 = 5% damage boost in raids + 5% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
+- Cape 4 = 7% damage boost in raids + 5% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
+- Cape 5 = 10% damage boost in raids + 7% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
