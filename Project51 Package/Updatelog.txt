@@ -1,0 +1,1559 @@
+Changed location of Eastern and Western dragon teleports
+
+Made all Wilderness and Minigame teleports take you to the right place listed on the interface
+
+You can not use the inferno teleport unless you hava sacrificed a fire cape
+
+Fixed the autocasting bug (Game was casting the spell before the one you selected)
+
+Began moving the home to the new location
+
+Implemented item definitions for
+-Dawnbringer
+-Raid reward capes
+-Bracelet of Etherum
+-Double Experience Ring
+-ToB reward capes
+-Vesta, Zuriels, Morrigans, Statius
+-Snow imp costume
+-Barb Assault Icons
+-Ava's assembler, Assembler max cape & hood
+-Turqoiuse slayer helmet (unimbued and imbued)
+-Dexterous and Arcane prayer Scrolls
+-Hydra tail
+-Hydra claw
+-Hydra's heart
+-Hydra's eye
+-Mythical Cape
+-Alchemical Slayer helmet
+-Alchemical Slayer Helmet (I)
+-Mystic Set (Dusk)
+
+Added the operate item functions for all max capes, slayer helmts, Bracelet of Etherum, and Rev Cave weapons
+
+Added all ItemOptionTwo functions for all slayer helmets through turquoise
+
+Implemented Revenant Cave Teleport Scrolls
+
+Added all max cape variants and their proper inventory/operate options
+
+Implemented Crushing Lava eels for tokkul & Onyx Bolt Tips
+
+Implemented Lava Dragon Scale crushing
+
+Revenant Cave weapons can now be charged with Ether
+
+Extended antifire potions can now be drank & created through herblore
+
+Karambwanji is now stackable
+
+Zulrah best time now sends a message to the Discord game feed
+
+Updated inventory & operate options for all slayer helmets and max capes
+
+Fixed gem bag inventory options
+
+1-21/2020
+
+Fixed yanille teleport
+
+1-22-2020
+
+Fixed Hydra Slayer Helmet creation
+
+Revamped Revenant Cave teleport scroll to work like a proper teleport tablet
+
+1-22-202
+Added all inventory options for both forms of bracelet of Etherum
+Made revenant cave multi
+All npcs in the cave are now aggressive
+Implement bracelet of etherum
+-Monsters in rev caves do not aggro when wearing
+-Damage done by all monsters in the cave is reduced to 0
+Players skulled within the revenant cave have a 5% drop rate boost
+
+1-28-2020
+Removed the pre-charging of Revenant cave weapons
+Fixed uncharging the craws bow causing an error in console and deleting the bow
+Changed Divine Spirit Shield custom item ID because it was replacing (The shield and model came with client)
+Updated many npc sizes; Most importantly all the Revenants & a couple of bosses. (This makes crystal halberd more useful & efficent)
+Uncharging Viggora's chainmace and Thammaron's sceptre now works properly
+You can now check the amount of charges you have left in the Revenant cave weapons from within your inventory
+Removed the limit of charged Bracelets of Etherum you can have on your account. (I added this in the previous project & decided this is rather annoying and tedious)
+Fixed typos in checking the bracelets & weapons for charges
+Dragon Hunter Crossbow now has the proper effect when fighting against dragons (30% damage and accuracy)
+Dragon Hunter lance now has the proper effect when fighting against dragons (20% more damage and accuracy)
+The debug messages for testing max hits & accuracy on already existing weapons have been expanded on and seem more efficent
+Slayer Helmet buff has been increased to 16.67% from 15% to be more accurate to OSRS
+Accuracy & Damage multiplier debug messages have been implemented for magic
+All forms of slave amulet should now work properly when fighting undead npcs
+Added the item definitions and config for Amulet of Avarice
+Updated the max hit, health, attack, and defence of all Revenant npcs
+Updated the click distance for both entrance to the Rev Cave
+Made sure the Revenant Cave will only allow you to enter from the tile's directly in front of it
+Slayer helmets no longer stack with Salve Amulets. If wearing any Slayer Helmet & an Amulet, the Amulet WILL OVERRIDE THE HELMETS EFFECT
+Furthermore expanded on the Debug messages from combat. All combat styles will now display adaqute information
+Added droptables for poss. pickaxe
+Updated all undead npc configs
+You can now imbue salve amulets through the slayer rewards interface
+The prices of unlocking Cerberus and Superior Slayer have been changed
+Fixed animations for Revenant imp and cyclops
+2 Revenant Imp spawns have been added to the cave
+Holy Wrench has been added to the slayer shop for 220 slayer points
+Fixed the max hit, attack, and defence of the Revenant Imp
+Organized & cleaned the pethandler class (226 lines deleted)
+Added Wrath Rune pet data
+Implemented Wrath tiara and talisman
+Added Wrath Runecrafting with chance to get the pet
+Implemented Corporeal Critter pet
+-The pet is given to a player who kills 250 Corporeal Beast
+Vesta spear no longer has its damage reduced against Corporeal Beast
+Vesta spear now does 30% more damage to corporeal beast 
+Vesta spear special now functions properly (Minus a broken GFX)
+Vesta spear and longsword now load the proper interfaces with special bars
+Vesta longsword special now functions properly
+
+
+1/29/2020-Raids and more
+Ice demon now can cast a snow storm attack that does consistent damage until the player moves 
+Olm now can cast an Acid pool attack that does consistent damage until the player moves 
+All 4 braziers need to be lit in order to attack the ice demon
+All three vanguards now use different attack styles.
+Each Olm hand now requires the use of ONE attack style to be killed. (Left hand magic only, Right hand range only)
+The different raid reward capes now provide a damage boost against raid monsters
+The bronze axe spawn in the Ice Demon room can now be looted for a Bronze Axe
+
+2/4/2020
+You can now use bones on the altar in the Max Guild
+The Cooking range on the second floor of the max guild can now be used
+The altar within the max guild will now restore prayer points when used
+Fishing spots have been added to the fishing guild teleport
+New skilling teleports have been added
+The ladders inside the mining guild can now be used as exits
+The south door to the mining guild now functions properly
+Agility Training can now be more easily found (Teleport renamed & relocated)
+Cooking range & Spinning Wheel have been added to the home area
+Anti-Venom(+) Now grants immunity to venom for 15 minutes instead of 5
+Wrath Rune Guardian now has the proper data within item.cfg
+Creating a Dragon Hunter Lance now requires 1 Zamorakian Hasta & 1 Hydra's Claw
+
+2/5/2020
+The following armour/item sets can now be unpacked (Working on bug with repacking sets)
+-Obsidian Armour set
+-Cannon set
+-Dragon set (Platebody/Full helm)
+-Justiciar Set
+-All Mystic sets (Blue, Light, Dark, Dusk)
+-Steel trimmed sets
+
+The following items have been added to clue scroll rewards
+-All steel (T) & (G) pieces (Easy)
+-Godsword Ornament Kits (Master)
+-Zenyte jewlery kits (Master)
+-Fury ornament kit (Hard)
+
+Ornament Godswords can now be created
+Ornament Godswords have had the proper specials implemented
+Zenyte Jewlery (or) can now be created
+Averic Defender can now be created from an Avernic Hilt & a Dragon Defender
+Added the item configs for the new armour sets, ornament kits, and a few extra items
+
+2/7/2020
+Trading post has had many bugs fixed
+An object has been added to home bank that now opens the trading post
+Chinchompas caught in box traps now display the proper shaking box
+Changed the location of Catacombs teleport
+Demonic Gorrillas are now a boss teleport
+Dungeons teleports changed to Monster teleports
+Many more options added to Monsters teleport tab
+Pest control reward prices reduced both server & client sided
+All misleading well of goodwill interfaces & messages have been fixed
+Announcements for 100m, 150m, & 200m reaching experience have been added
+Implemented discord messages for the experience rewards
+Double experience ring added
+Right click options for fletching amethyst have been added client sided
+
+2/8/2020
+All monster kills are now tracked
+XP boosts have been added to the donator zone
+Bonus XP weekend implemented
+WOGW Bonus experience now works
+Bonus xp books implemented
+Completed Achivement diaries will now turn green inside the achievement diary tab
+Ranged shop has been updated
+Combat supplies shop has been updated
+Magic shop has been updated
+Stats of the Amulet of Torture(or) have been fixed
+Zamorak Mage can now teleport you to the Abyss with its right click option
+ZMI Altar teleport changed to Runecrafting teleport
+Zamorak mage spawn added at the Runecrafting Teleport
+Thieving stalls fixed & now give the proper items & experience scaling with level
+Added the following things to the donator zone including;
+-Teleportation Device
+-Cooking Range
+-Anvil
+
+The following items are now noteable
+-Amethyst
+-Vesta weapons & armour
+-Mystic set (Dusk)
+
+
+2/10/2020
+The anvil in Max guild now works
+Further Customized the home area using RSPSi map editor.
+Max guild portal added to home
+Chaos Altar in level 30 wilderness now functions properly
+-You can use bones on the altar
+-50% chance you'll save a bone being offered resulting in more experience
+The doors outside the Chaos Altar now work
+Chaos of Fire elevator lifts now function properly for all three floors
+Lesser, greater, and black demons have been added to the Chasm of Fire
+Started working on making the Craws Bow function properly
+
+2/11/2020
+Rock crab teleport location fixed
+Finished Craw's bow. It now fires without the use of arrows and loads its ranged strength from the weapon rather than arrow slot
+Gren, blue, red and black dragons have had their max hits updated
+Green, blue, red and black dragons now use a weaker form of anti-fire that can be countered with just a Dragonfire shield or potion. Rather than needing both
+Added Hardcore ironman rank & gamemode
+Implemented Hardcore Safezones where you can safely die
+Replaced Willow Longbow in the Ironman starter pack with a normal Shortbow
+Added a net & lobster pot to the regular Ironman starter pack
+Added a small net to Hardcore Ironman starter
+Replaced the starter interface with a simpler, more old fashioned one
+HCIM can now open the Ironman Shop
+Adam & Makeover mage added to the south home building
+Emblem Trader added to the north west home building
+The login tutorial has been updated
+You can no longer click npcs while you are inside the tutorial stages
+Fishing store has been added to the fishing guild bank
+The Fishing Guild teleport now takes you inside of the Fishing Guild bank
+Implemented Daily Task points
+Edited Dailt Task point shop & values
+Added Bonus XP & Bonus Drop books
+Added Bonus Drop system for the books to function with
+
+
+2/12/2020
+Added Arclight special attack
+Added Statius Warhammer Special attack
+Superior forms of Abberrant and Deviant Spectres have been added
+The attack & death animations of all superior slayer npcs have been added
+Every form of Kolodin now requires magic to be killed
+Olm's right claw can now only be killing using melee rather than magic
+Magic Shortbow now deletes when you die with it equipped or in your inventory
+Revenant drop tables are now listed in 3 groups
+-Imp, Goblin, Pyrefiend
+-Hobgoblin, Cyclops, Demon, Hellhound, Ork
+-Dark Beast, Knight, Dragon
+All Revenant drop tables have been revamped
+Added the item.cfg for Attacker, Defender, Collecter, and Healer icons
+Dragon Platebody can now be crafted from a Dragon metal lump, Dragon metal shard and a dragon chainbody
+The price of herbs in the Myths Guild herblore shop have been altered
+Dragon metal Lump can now be bought at the max guild & shard can be obtained from the Crystal Key chest to provide an alternative method to obtain the Dragon Platebody
+Max Guild Supply shop expanded & a shop containing ores and bars has been added to the top floor of the guild as well
+Anglerfish, Runite ore, Toadflax, Snapdragon, Ranarr, landytyme, Super combat, Extended anti-fire potions, and dwarf weed have all had their shop values updated
+Created Achievement for dealing 10,000 damage
+Created Achievement for healing 5,000 health
+Added drop tables for all superior spawns (minus cave abomination)
+The shop price of Wrath runes has been increased to 1150. The sell price is now 767
+Updated shop price for Pure Essence to 30 per to accompany Max Guild Supply Shop
+Specials will no longer be activated if you do not have the required amount of special (Whip spec requires 50%, Can't activate without having 50% or more)
+Black mask can now be directly imbued into a Black Mask (i)
+Black Mask (i) can now be crafted into a Slayer Helmet (i)
+Black Mask (i) is now wearable
+
+
+2/14/2020
+The manual players get on first login now opens an interface providing a few tips
+The prestige managers name & right click options have been updated
+The large Runecrafting pouch has been updated and now functions properly
+A message is now sent to players when they receive a runecrafting pouch as a drop
+Updated the Skill Menu Interface for Runecrafting
+-Now displays Wrath & Soul runes
+-Multiples for Blood & Soul runes now displayed
+-Small, Medium, Large pouches now displayed on the interface
+Runecrafting pouches have had their models added via the client. Still need to find proper rotation however
+A message is now sent to the player when they receive an Ecumenical Key drop
+A message is now sent to the player when they receive a Dark Totem Pieces
+A message is now sent to the player when they receive a Darklight
+Revenant Imp now has the healing effect that the other Revenants have
+The droptable system now properly loads and displays aggressive npcs
+All Revenants should now load as aggresive on the drop table
+Updated the Desert diary entry to say "Complete Shadow of the Storm quest" rather than "kill Shadow of the Storm"
+The drop rates for the Rare & Very rare Revenant Droptables have all had their rates scaled down
+Common drops revamped for all Revenants have been
+Revenants considered mid-level now drop Dragon Arrowtips in the uncommon table
+Revenants considered high-level now drop Dragon Dart tips in the uncommon table in small amounts
+Implemented user friendly staff enabled events for;
+-2x PC points (+5 can also stack with the WOGW +5 for a total of 15 points per game)
+-2x PKP events
+-Double drop events
+-15% Droprate events
+The death messages for hardcore ironmen have been updated
+Discord messages have been implemented for the death of Hardcore Ironmen
+
+2/15/2020
+Fixed an issue causing Craw's bow (U) to drop twice
+Further adjusted the general droptables of Revenants
+Bracelet of Etherum now locally announces as a drop
+You can now turn the Ancient totem & its variants into an Emblem Trader for coins
+Added a check for available inventory space for turning in the Ancient Emblem and its variants
+Hydra Bones & Superior Dragon Bones are now noteable
+The NPC at the chaos altar will now unnote your bones for 100 gp per bone unnoted
+All Morrigan's items can now be noted
+All Statius' items can now be noted
+Bracelet of Etherum, Craw's bow, Viggora's Chainmace, Thammaron's Sceptre can now all be noted
+The Olm acid pool attack has been fixed
+The Ice Demon snow storm attack has been fixed and now only hits 2s
+Raid team size scaling has been added.
+-1 person in your team = Normal health, max hit, attack & defence bonuses for all bosses
+-3 or more people in your team = 110% health, max hit, attack & defence bonuses for all bosses except for tekton & skeletal mystics
+--Tekton and Mystics scale by 105%
+-5 or more people in your team = 120% health, max hit, attack & defence bonuses for all bosses except for tekton & skeletal mystics
+--Tekton and Mystics scale by 110%
+-6 or more people in your team = 132% health, max hit, attack & defence bonuses for all bosses except for tekton & skeletal mystics
+--Tekton and Mystics scale by 120%
+Updated the object click distance on the Hole to enter Olm's dungeon
+The energy well before olm's room now restores your stats & special
+Added 3 tiers of achievements for
+-raids
+-runecrafting
+Added the final 2 tiers of achievements for
+-Dealing PVM damage
+-Healing with food
+All discord links within the server have been updated to go to the discord I have setup
+Some of the quest/achievement tab texts have been updated
+The clicking buttons for said texts have also been updated
+Enabled MonsterHunt world spawns
+Added 3 new spawns inside of the wilderness, allowing for 3 spawns in & 3 spawns outside of the wild
+Changed the reward of the monster hunt bosses
+Added Vespula as a worldspawn boss
+Added the .cfg for many bosses including;
+-Vespine soldier
+-Lux Grub
+-Vespula
+-Muttadile
+-Giant Scarab
+-The inadquacy
+-ToB bosses
+-Porazdir, Darwen, Justiciar_Zachariah
+-Bryophyta
+Fixed the attack animation of
+-Multiple Demon variants
+-Dragonfire coming from most dragons
+You can no longer use Wrath talisman or Tiara to teleport above 20 wilderness
+Added a console outprint for when players log in
+Puro Puro portals now spawn around the Hunter area rather than feldip hills
+Augury and Rigour now must be unlocked to use the prayers
+Augury and Rigour prayer scrolls now function properly and unlock the corresponding prayers
+Banker added to Mining Guild starter level
+The ::home command now takes you to the proper location
+Added Lucky Impling spawn to the Max Guild
+Fixed an issue where NPCs steal the fight from eachother in single locations
+Changed the drop rates for all Ancient totem variants
+
+2/16/2020
+Fixed the operate options for the Hydra Slayer helmets
+Bonecrusher Necklace now restores prayer when bones are buried and the player is wearing it
+Added Wyrm, Drake, and Hydra Bones to the bones that restore prayer from the DragonBone or Bonecrusher necklaces
+Added the .json and .cfg data for the following items;
+-Bonecrusher necklace
+-Wyrm bones (Noted+unnoted)
+-Drake bones (Noted+unnoted)
+Wyrm and Drake bones have been added as buryable bones with the proper experience
+Wyrm and Drake bones noted version now functions properly
+Added the .cfg data for Drakes and Wyrms to load the proper combat level & hitpoints
+The second option for the Rigour and Augury prayer scrolls now closes the interface
+Hour long double drop books removed from the daily point & vote point shop
+The following items now have item combination data and can be created;
+-Brimstone boots
+-Brimstone ring
+-Devout boots
+-Bonecrusher Necklace
+-Updated Dragon Hunter Lance combination method
+Added the .cfg and .json data for
+-Boots of Stone
+-Boots of Brimstone
+-Brimstone ring
+-Devout boots
+The following items now function properly as noteable items
+-Boots of Stone
+-Boots of Brimstone
+-Brimstone Ring
+-Devout Boots
+-Dragon Hunter Lance
+-Drake's Claw
+-Drake's Tooth
+-Wyrm bones
+-Drake bones
+Added client sided & server sided data to make pets for all Slayer based monsters
+
+2/17/2020
+Finished resizing, renaming, & further adjusting the new Slayer Pet npc data
+Added the dark (Black/teal) Ikkle Hydra pet to the Metamorphosis function for all Ikkle Hydra variants
+Fixed the Npc Size of Cave Horror pet (Was 2, Now it loads as size 1)
+-This was causing issues with the pet following players
+Resolved a problem with the spawning of Abberrant and Deviant spectre superior variants
+Fixed the Npc Size of Dark Beast pet (Was 3, Now it loads as size 1)
+-This was causing issues with the pet following players
+Cave Slime npc data updated
+The combat levels required to use certain slayer masters has been updated
+-Krystilla now requires 1 instead of 101
+-Duradel now requieres 100 instead of 99
+-Nieve now requires 85 combat instead of 101
+Finished Implementing the new Slayer Pet system & fixed a few bugs around it
+Added pet versions of all 6 barrows brothers. Client sided only for now
+Created items using NPC models to house the barrows brothers
+Added the barrows pet data server sided, still need to implement a way to get them
+The door to get into the inferno from the Tzhaar city has been fixed
+Updated the landing spot of the Mos Le Harmless teleport
+removed the Dark/teal hydra metamorphosis
+The dark/teal hydra is now picked up with its second-click option
+Ring of Wealth and Ring of Wealth imbued now pick up coins from PvM drops when worn
+Fixed an error with custom hitsplats that I have previously added
+The pet pickup/drop animation will no longer display if you try to drop a pet item while you already have a pet out
+The gfx on the Craw's bow projectile (arrow) has been changed from the green, crystal bow gfx, to the orange, craw's bow gfx
+The Vesta Spear special now uses the proper GFX
+Impelmented the Royal Seed Pod teleportation system
+The Royal Seed Pod will now allow you to teleport up to 30 wilderness.
+Dice zone boundary has been updated to cover the home area
+The ::dice command now takes you to the home bank
+The crown displayed with dicing messages has been updated
+
+2/18/2020
+When a player walks away from the trading post they will now be able to equip items
+Bonecrusher Necklace will now restore prayer when the necklace is being worn and bones are being crushed
+Fixed an issue with the Monster Drop Viewer not properly loading agressive npcs
+-Issue also casued certain npcs within specific areas to not display their drops and outprint an error
+
+
+2/19/2020
+Updated the Vorkath head discord message
+
+
+2/22/2020
+Updated the Follow distance of all Revenant NPCs
+Fixed untradeable item duplicate ID's
+
+
+2/23/2020-2/24/2020
+Added new Achievements for
+-Wearing a skill cape
+-Wearing a Max Cape
+-Crafting a specific number of runes
+-Killing Zulrah
+-Killing Vorkath
+-Killing Cerberus
+-Packing an armour set into a box using a hammer
+-Completeing the Mage Arena miniquest
+-Mining 1000 Adamant Ore
+-Mining 2500 Rune Rocks
+-Fishing 1000 Swordfish
+-Fishing 5000 Shark
+-Offering 500 bones at the Wilderness Chaos Altar in 38 Wilderness
+
+Kolodin now has a second click option that options the Mage Arena point shop
+Created & Implemented 3 Pest control based pets
+-Splatter
+-Spinner
+-Shifter
+Npc damage is now reduced by 25% when wearing full Justiciar
+Tekton world boss spawn has been added
+Tekton World spawn now properly counts damage for rewarding players
+Tekton world spawn is no longer freezeable & has additonal melee defence
+Implemeneted bonus buff days:
+Double Pest Control points on Mondays
+Double Slayer points on Tuesdays
+5% passive drop rate boost on thursdays
+Bonus Experience on the weekends!
+Updated the well of goodwill inteface text for bonus experience
+
+Created 5 new npcs for a custom minigame that is in the works
+
+2/25/2020
+Gave the new NPC's different greek names to somewhat support their gear and abilities
+Added Dragon Knife's range weapon support
+Implemented the Dragon Knife special attack (Projectiles may need tweaking)
+Changed the ID of the items linked to the Pest control pets
+Updated the npc click options for the man npc
+Added 4 different stalls to rogue's den
+Added spawns for man and master farmer NPCs inside the rogue's den
+Fixed an issue with the random event interface displaying while thieving
+Hardcore ironmen can now pickpocket master farmers with the first click option
+Added a teleport to Rogue's den
+Hero has had its click options changed
+First click option for Hero is now pickpocket
+Hero spawn added to rogue's den
+Moved the altar at home so that it is much closer to the bank booths
+Snow imp tail is now wearable
+All d'hide shields can now be equipped
+-yew, magic, and redwood shields can be equipped
+Clown cosmetic set is now equipable
+Updated Tekton & Vespula world spawn drops
+Revamped Ancient chest rewards
+-Ancient chest is given to all players who damage Tekton & Vespula
+-The ancient chest has additional rolls at; Infernal Cape, Dawnbringer, Ghrazi rapier
+Amuelt of power in the regular player starter package replaced with Amulet of Glory(4)
+Amount of sharks in the regular player starter package has been increased to 250
+Added Herblore secondaries to the general store stock
+Feathers have been added to the ironman shop
+Added Elder Chaos Druids to the Chaos Temple in 13 wild
+-Added the spawns
+-Implemeneted proper attack gfx/projectile
+-Created droptables
+Bracelet of Etherum Ether absorption has been completed
+Krystilla spawn moved to home slayer master area
+Konar slayer master spawn added to home slayer master area
+
+2/26/2020
+Fixed an issue with marks of grace spawning way too often @ varrock rooftop course
+Eternal, pegasian, and primodrial boots now require the right stats to be worn
+
+
+2/27/2020
+Removed a spam message when cutting redwoods
+All throwing knives now require the proper range level to be worn
+abyssal tentacle should now apply poison in combat (needs testing)
+A bug has been fixed where weapon poison(+) required noted coconut milk to make instead of regular coconut milk
+The mark of grace spawn message should no longer display unless you have debug mode turned on
+removed global drop announcements for dragon battleaxe, dragon halberd, dragon boots, rock-shell pieces and spined pieces
+Block animations removed from pest control portals, they should no longer bug when being attacked(needs testing)
+updated the stats needed to wear serpentine helm, magma helm, tanzanite helm
+Anti-venom potions now resolve poison status and provide immunity to poison
+Corporeal beast can no longer be poisoned or venomed
+Corporeal beast can no longer be frozen
+If jad drops an item like a crystal key or clue scroll it now drops outside the cave
+The toxic staff of the dead now has the passive +8 magic attack boost for a total of 25 magic attack bonus when charged instead of 17.(  https://oldschoolrunescape.fandom.com/wiki/Toxic_staff_of_the_dead )
+Verac the defiled now hits through the proper prayer
+Pets teleport to you after death
+Ring of recoil will now shatter after dealing 40 recoil damage instead of 200 ( https://oldschool.runescape.wiki/w/Ring_of_recoil )
+All forms of Zenyte jewlery now requires 75 hitpoints to be worn
+Implemented the ability to drink raid potions
+Raid potions can now be created
+Herblore skill interface has been updates to include raids
+-Raids & milestones interface option have been switched
+Anti-venom and Anti-venom + have been added to the skill interface
+Preserve, Chivalry, Piety, Rigour and Augury have been added to the prayer skill menu
+Dragon Knives have been added to the range skill menu
+Craw's bow added to the range skill menu
+Added item configs for all raid potions
+Redwood tree & logs added to woodcutting/firemaking skill menu
+Dark crabs and Anglerfish added to the cooking skill menu
+The speed of picking flax has been dramatically increased
+
+
+2/28/2020
+Items dropped by players or npc drops now stay on the ground for 5 minutes before being shown to other players
+Max farming patches a player can have increased by 2
+2 herb patches have been added to one of the raids skilling rooms
+The gourd tree now gives players empty gourd vials
+The second click option of the tree now fills every empty slot in your inventory with empty gourd vials
+Using empty gourd vials on the Geyser in the raids skilling room now fills the vials with water
+The farming tools object in raids now gives you the following farming supplies
+-Rake
+-Spade
+-Seed dibber
+-Watering can
+-Compost
+The chest in the Raids Chest room now has a 1/45 chance of giving players the book needed to progress to the next room
+You now need the Vanguard Judgement book to pass through the raids Chest room
+The book is now deleted upon going through the passage
+There is now a message when trying to collect the farming tools without enough inventory space available inside of Raids 
+Using Empty Gourd vials on the geyser now fills all vials in the players inventory rather than 1
+Both click options of the Gourd tree can now be used from 2 squares away
+A Master farmer (raid specific) has been added to the raids skilling room
+The farmer now despawns when a raid is ended
+The master farmer can be now be pickpocketed from if the player has 85 thieving
+-Always gives; Buchu seeds, Golpar seeds, or Noxifer seeds
+-Rare chance to give 4 dose overload
+Golpar, Buchu, and Noxifer seeds can now be farmed
+-The seeds provide grimy herbs
+Grimy Golpar, Buchu, and Noxifer herbs can now be cleaned
+
+3/1/2020
+The stairs inside raids now takes clan members back to the Chambers of Xeric entrance
+The stairs will now end the raid if used by the clan leader
+All players in the clan chat will be teleported when the raid is ended by the leader
+Fixed a bug where leaving a raid via stairs would not reset the current rotation of clan members
+The home teleport now takes you to the raids lobby so you can properly exit via the stairs
+All teleports in the teleport tab will now teleport you directly to the raids lobby
+Fixed an issue with mage Vanguard not spawning in duo & trio raids
+When the clan leader leaves a raid it will now only teleport players that were in the raid, not just in their clan chat
+The chests in the raids chest room now require 72 thieving rather than 85
+Added a passage way to the end of the skilling room in raids
+
+Enchant Zenyte spell now switches to your inventory when clicked
+Enchant Zenyte spell has been added server sided - Note on 6/22/2020 - Believe this was bugged and removed
+Skills needed for raids
+-72 thieving
+-65 woodcutting
+-50 fire making
+Option stats
+-85 thieving
+-
+ m  999
+
+3/9/2020
+Nieve's dagganoth king task will now say Dagganoth kings instead of Dagganoth Rex
+The wyverns from fossil island now have .cfg information added and can now be attacked
+Implemented drop tables for the fossil island wyvern spawns
+Implemented drop tables for blue, red, and black brutal dragons
+Added item.cfg data for granite boots and granite longsword
+Updated the drop table of the regular Hydra
+Added more Hydra spawns to Karuulm Dungeon
+Added Drake and Wyrm spawns to the Karuulm Dungeon
+Alchemical Hydra droptable has been implemented
+Added superior slayer pets client sided
+Implemented the new pets server sided
+-1/78 chance to receive the new superior slayer pets
+Added compost bin to raids skilling room
+Implemented 2 new donators zones (Still need npcs and teleports added to the game)
+
+
+3/12/2020
+Added ranger gloves as a reward from master clues
+Fixed an issue with the height of drake's spawn
+-They will no longer appear on the same floor as Hydra's but spawn on the floor above them
+Fixed an issue causing players to be unable to create an Assembler max cape
+Increased the respawn rate on King Black Dragon & Kalphite Princess
+
+3/12/2020 TODO:
+Finish raids;
+-All tiers of fishing
+-Make kindling burnable via firemaking skill, requiring 50 firemaking
+-Make lighting the braziers requirw 50 firemaking
+-Update fishing skill interface to include raids fish
+-Make the chests in the chest room have a 1/8 chance of spawning Scavenger runts
+--Scavenger runts have 15 hp
+--Make a variable for the spawned scavnegers runts
+--make it so the runts are spawned for the player & can not enter the next room until the runts are dead
+-Added raids data to thieving skill interface
+
+
+Private Corp beast portal
+-Cost 5m per 30 minutes
+-Banker on Map
+-Different corp beast npc that is 38% weaker
+-Playerindex * 4
+
+3/13/2020
+Made deviant spectre's aggressive
+Players now deal full damage to Corporeal Beast when using the Crystal Halberd and Crystal Halberd (i)
+
+3/14/2020
+Abberant Spectres are now aggressive
+Venenatis' magic attack no longer hits through prayer
+Added Vorkath as a boss task (3-20 kills per task)
+Ring of Suffering (i) now has a recoil effect against NPCs
+-This effect is passive & has unlimited charges saving players from having to load the ring with Rings of Recoil
+Ring of Suffering (i) now has a recoil effect against players
+-This effect is passive & has unlimited charges saving players from having to load the ring with Rings of Recoil
+Kindling from raids is now burnable with a tinderbox via the firemaking skill
+-Doing this requires 50 firemaking
+-Grants 135 XP per kindling burnt which is the same as Maple Logs
+Lowered the chance to receive a book in the raids chest room from 1/45 to 1/32
+Added a message that says you have received the book from the chests in the chest room
+Implemented fishing data for all variants of raid fish
+Made the fishing spot within the raids skilling room allow you to fish from it
+-The fishing spot requires a Small fishing net and Cave worms
+-You can get Cave worms and a fishing net in the skilling room
+-The fish you get depends on your fishing level
+--Tiers are 1 through 29 for Pysk & Suphi, 30 through 59 for Leckish & Brawk fish, 60 through 89 for Mycil & Roqed fish. 90+ for Kyren fish
+Fixed the fishing animation when catching Kyren fish
+Added a Small fishing net spawn to the raids skilling room
+The small fishing net object now gives players a small fishing net, if they do not already have one
+Added Bronze axe spawn to the raids skilling room
+Added Tinderbox spawn to the raids skilling room
+The tinderbox object spawn now gives players a tinderbox if they do not already have one
+Implemented the cooking data for all variants of raids fish
+All variants of raids fish can now be eaten
+All raids fish now heal the proper amount of health, matching osrs
+Removed the object spawns for the following objects that I previously added to the raids skilling room
+-Tinderbox
+-Bronze Axe
+-Compost Bin
+Edited the skilling room via RSPSi Map editor to re-add the following objects;
+-Tinderbox
+-Bronze Axe
+-Compost Bin
+-Added more bubble spawns around the body of water so that players can fish from more than one location
+Added a passage at the opposite end of the skilling room that players spawn in so they may continue to the next room
+Fixed an issue with raids rotation 2 not giving players the skilling room (Mutadile spawns first in rotation 2)
+Used RSPSi Map editor to edit another Chambers of Xeric skilling room to use in future rotations being added
+Implemented a daily reward system client sided, 
+Implemented a interface displaying rewards for the daily reward system and basic server information
+Draynor rooftop agility course now works
+Fixed stand, walk & run animations of viggoras chainmace;
+-charged and uncahrged versions
+Added stand, walk & run animations to the following items;
+-Ale of the gods
+-Easter basket
+Fixed stand, walk & run animations of any banner in-game;
+Fixed the attack animations of viggora's chainmace
+-charged and uncahrged versions
+Fixed an issue causing slayer helmet to not properly when using magic against your slayer tasks
+
+
+3/15/2020
+Added the proper attack animations for all forms attack styles from the following npcs;
+-Adamant Dragon
+-Rune Dragon
+-Longtailed Wyvern
+-Taloned Wyvern
+-Spitting Wyvern
+-Ancient Wyvern
+Removed the block animation from the Hydra slayer monster
+Updated the attack animations for the Hydra slayer monster
+Added the death animations for the following npcs;
+-Longtailed Wyvern
+-Taloned Wyvern
+-Spitting Wyvern
+-Ancient Wyvern
+-Drakes
+-Wyrms
+-Alchemical hydra
+Made a ton of updates to the Hydra slayer monster
+-The combat script now handles how many attack styles the Hydra utilizes & how/when to switch
+Hydra's special poison attack now hits more than one player
+Hydra's poison groundspell now actually deals damage
+The respawn timer for Hydra has been changed from 30 seconds to 40 seconds
+Hydra's max hit has been capped at 22
+Hydra no ignore's projectile clipping to avoid active safespots (needs testing)
+The projectile speed of Hydra attacks has been properly set
+The follow distance of Hydra has been updated
+Hydra now properly loads as a Dragon for the DHCB & lance
+
+
+All dragon npc IDs have been properly added to the damage boost for Dragonbane weapons
+Vespula now ignores projectile clipping to avoid being safespotted
+Rewrote the Vespula combat script
+Vespine solider now has a range attack & is aggressive
+Proper attack distances have been added to the vespine soldier
+Skotizo's magic attack now has a hit delay timer allowing players to prayer switch against it
+Vespine soldier now has the proper attack, block, and death animations
+The daily login reward interface no longer appears if the daily reward has been claimed
+A message has been added upon login telling players when they can next claim their login reward
+Updated the combat scripting of the following npcs;
+-Brutal Blue Dragons
+-Brutal Red Dragons
+-Brutal Black Dragons
+-Adamant Dragons
+-Rune Dragons
+
+3/16/2020
+Edited the normal magics autocasting interface to include the new suge spells
+Added the server-sided support for the new buttons on the autocast interface
+Implemented the new interface for normal magics autocasting
+Added the proper hover screen/data for surge spells autocasting
+-Displays the correct level & runes needed to cast the spells
+Leaf-bladed battleaxe has had its attack animation updated
+The stats have been corrected when wearing a Leaf-bladed battleaxe
+Leaf-bladed battleaxe now has the proper damage boost against the following npcs;
+-Kurask
+-Basilisk
+Decreased the attack delay on leaf-bladed battleaxe from 6 to 5 to make it useful and match OSRS
+Crystal Helberd (i) has had the strength bonus increased by 2 to allow a max hit differnece of 2 with normal attacks
+Crystal Halberd (i) has had a special added
+-Similar to Crystal Halberd special
+-125% accuracy bonus while using special
+-115% damage bonus while using special
+The maxhit dummy now counts as the following npc types to show proper max hits
+-Demon
+-Dragon
+-Revenant
+-Dragon
+-Raids boss (not currently used, was planned to be but backed out :-) )
+Crystal bow (i) has been added to the game requiring the following updates or changes
+-Crystal bow (i) is now equippable
+-The item requires 70 range and 50 agility to wear
+-Bow is now two-handed
+-The imbued crystal bow now properly counts a bow
+-This bow now counts towars achievements requiring the crystal bow
+-Now shoots the proper green arow projectile
+-Loads the range strength from the weapon, not arrow slot
+-I have made the Crystal Bow (i) count as a range weapon
+-Range bonus set to 125 instead of 100 (100 is original OSRS stats)
+-The range strength has been boosted from 70 to 82 (I originally set the range strength to 70 based on OSRS wiki but I feel there needs to be incentive to imbue the crystal items so increased max hit, strength, accuracy, or stats is a must)
+Updated the daily reward information for;
+-Daily perks/buffs
+-WOGW bonus' (Includes displaying of 2 WOGW perks at once or all 3 availabile perks)
+-Bonus xp (now displays proper stacking of XP boosts)
+--XP boost stacking includes; Donator zones, XP books, WOGW bonus, Bonus XP weekend
+
+
+3/17/2020
+Vorkath can now be killed for a Blue Dragon task
+Brutal blue dragons can now be killed for blue dragon & baby blue dragon tasks
+Fixed a max hit debug message always displaying when casting magic with a slayer helmet
+The following changes/updates have been made to the wilderness slayer tasks/master;
+-Krystilla can now assign Revenant tasks, Killing all Revenants will count towards this task
+-All tasks given by Krystilla have had their experience per kill fixed/adjusted to match OSRS (This number is then multipled by our server multiplier, then by XP boosts etc to provide the Experience you gain in game)
+-Lava dragons location teleport has had the location changed to Lava Dragon Island
+-Skeletal Wyverns now replace the green dragons inside the Revenant Caves
+-Skeletal Wyvern task location has been changed to Revenant Caves
+The following changes have been made to Nieve slayer tasks/master;
+-XP per kill for the following bosses has been updated or changed
+--Dagannoth Kings
+--Kalphite Queen
+-Demonic Gorillas
+--Lizardman Shaman
+--Cerberus
+--Chaos Fanatic
+--Crazy archaeologist
+--Scorpia x
+--Giant mole
+--Callisto
+--Kraken
+--King Black Dragon
+--Chaos Elemental
+--Vet'ion (XP WAS ALMOST HALF OF WHAT IT SHOULD HAVE BEEN WOWZERS BOIZ)
+--Venenatis
+--Kree'arra
+--General Graardor
+--Kril Tsutaroth
+--Commander Zilyana
+
+
+Barrelchest removed as a possible boss task
+You now need 87 slayer to be assigned a Kraken task (All thought Nieve needs 90 slayer to receive a task from, this is a fail-safe to avoid future issues may they occur)
+Corporeal beast can now be assigned as a boss task to players with 99 slayer (only 1-4 kills per task for eco based purposes)
+Revenant droptables have been slightly revamped once again
+-Made bracelet of Etherum a lot more rare
+-Wilderness weapons are now on the very rare table with the PvP armour/weapons
+-Ancient emblem, totem, relic, etc are now displayed on the droptable instead of being a hidden drop
+-Rates of Rare/Very Rare tables have been changed for all revenant table groupings
+Mystery box has been updated to dunction similar to the ultra mystery box
+-Displays an interface with some possible rewards
+-When the button is pressed the mystery box will begin to "roll" your reward
+-While reward is being roll, the spinner will move across different items on the interface
+
+
+The following updates have been made regarding magic spells, weapons, or effects;
+The spells have all been properly numbered with spell ID's within magicData
+Two spells have been added to support the Sanguinesti Staff
+When players wear the staff they will now cast the basic Sanguinesti Staff spell for combat
+-There is a 1/6 chance to activate the secondary spell 
+-The secondary spell will heal 1/9 of your current hp. (IF YOU ARE LEVEL 99 HP BUT HAVE 86 LEFT THE SPELL WILL HEAL THE AMOUNT OF 86 / 9 )
+--This heal effect is to make us stand out from other servers utilizing the OSRS forumula of healing half of the damage dealt
+-Operating the Sanguinesti Staff while worn will now tell players how many charges they have remaining in the staff
+-The "Check" option will now display how many charges you have left in the Sanguinesti Staff
+-The Sanguinesti Staff is no longer tradeable while it has a charge
+--The staff is tradeable if a player uncharges it
+-The Sanguinesti Staff can now properly be charged
+--9 blood runes per charge
+---Minimum of 10 charges; Meaning a minimum of 90 blood runes is required to charge the staff
+Tome of fire now properly boost damage of fire spells
+Fixed an issue with Sang staff charges not saving when players log out
+When attempting to charge Sangunesti staff 1000 at a time now workers properly (woops, only made it do 100 before and check for 100 > max LOL )
+Updated Dawnbringer spell graphics, max hit etc
+
+
+
+
+
+
+3/18/2020
+Verzik Vitur spider form has been implemented (No way to currently get to the boss to fight it)
+-Melee, Magic, Range attack
+-Follow distance of 32
+-Attacks from 4 tiles away
+-Ignores projectile clipping so it can not be safespotted
+-Projectile speed of the Magic attack set to 100
+
+Well of goodwill interface has been updated;
+-Bonus XP displays as 50% instead of 150% to avoid confusion with it providing 150% bonus ON TOP of the base XP for a total of 250%
+-Double drops (2 drops) has been changed to 2 Drops 1 Kill
+Added the following fishing spots to the new donator zone;
+-Monkfish
+-Sharks/Mantas
+-Anglerfish
+-Dark crabs
+-Karambwan
+New range object found within the donator zone can now properly cook food
+Bankers added to the new donator zone so people can setup/change/cancel bank pins from the donator zone if need be
+Removed the lava pool in the donator zone
+Added 2 Dragon Impling spawns to the donator zone
+3 Red Chinchompa spawns have been added to the south east corner of the new donator zone
+A "View Daily rewards" button has been added to the bottom of the blue star quest tab (default quest tab interface)
+-Clicking this button now displays the daily reward interface
+The teleport location of ::dz has been updated
+The teleport location of ::donatorzone has been updated
+Updated the Boundary for the donator zone to allow the donator perks to be regonized within the new island/zone
+Packed the all custom maps server sided to fix certain clipping issues etc
+Shop keeper spawn added to the donator zone
+Ironman Shop Keeper spawn added to the donator zone
+Removed a ladder at the new home
+Fixed the ugly black tile left by removing the ladder
+Added a few more trees and ores to mine in the south section of the new home
+Designed a little area for the trading post to be placed and added some fun little decorations to it
+Furnance and Anvil added to home
+Replaced the anvil at the donator zone with a proper working anvil
+Fixed the missing bank booths in the new edgeville map
+
+3/19/2020
+Added two bankers to edgeville bank
+Added the well of goodwill object to the home area
+Fixed object click distance on the pool of rejuvination
+Added the following npcs to the new edgeville home;
+-General store shoperkeeper
+-Ironman Shop keeper
+-PkP store (Being switched to wilderness point store)
+-Wise old man (Skill cape shop)
+-Crafting shop/Tanner
+-Thessalia
+-Consumables shop
+-Range shop
+-Magic shop
+-Melee shop
+-Mac (max cape shop)
+-Watson (Clue Expert)
+-Adam (Ironman Handler)
+-Daily Task Manager
+-Makeover mage
+-Weird Old Man (Degradeable tem repairs)
+-Grace (Agility training > Spawns south in the skilling section)
+Changed Watsons named to Clue Expert (Client sided)
+Updated the messages sent when talking to Watson
+Added examine information for Watson to slightly explain what he does
+Updated the furnance at home
+Vote shop has been updated to take actual vote tickets, not vote points saved to a players account
+The altar of occult at home now changes your spellbook
+Updated the object click distance of the altar of occult
+
+3/20/2020
+Updated the items inside of the Donator Shop one more time before launch
+Updated the prices of all items inside of the Donator Shop
+Holy wrench has had its price reduced in all shops
+Created postie pete pet npc
+Implemented postie pete pet server sided
+Changed the model of the item used to summon postie pete
+Updated some of the tiles in the new edgeville home to be unwalkable to help prevent noclipping in certain areas
+Repacked working animations for Dawn boos/Noon pet
+Repacked working animations for Smoke devil/Thermonuclear Smoke devil & pet variants
+A debug message when using Scythe of Vitur now only displays for people in debug mode
+XP gained when using scythe of vitur is now reduced (Same formula but damage is divided by 3)
+Triplehit method is now reset on death
+Postie pete pet item properly renamed to postie pete
+Implemented a few new crowns within the cache & client
+Different crowns now display when a player gets a drop inside the wilderness vs outside the wilderness
+Changed the home teleport location to edgeville
+Changed the edgeville teleport location to be closer to the new bank
+The new start location has been set to the new edgeville
+RSA keys have been updated within the server and client to ensure safety and integrity of the server as much as possible
+Custom maps once again packed to ensure all changes to donor zones and home are being read by both the server and client
+Slayer masters moved to edgeville
+Finished renaming some of things from the original base (Anguish) to Dragonstone
+
+
+3/21/2020
+Everything named Project 51 (original project name) has offically been renamed to Dragonstone
+Updated the tutorial teleports and dialouge
+Updated the message sent when opening the vote store via poll booth object
+Removed a debug message displayed when selecting your game mode
+Repacked the model for Crystal Halberd
+-The model randomly bugged and had no handle lol (must've repacked a broken one sometime i guess?)
+Changed the login message to include our real latest update instead of the last "update" to our base by the previous team
+Updated daily reward system
+-Now only gives 1 daily point per day and 5 when reaching the 16 day streak.
+--I will be increasing the variety of items inside of the Daily Point shop to
+Fixed some ugly blemishes in the daily reward system messages
+Made a Donator Coins items
+Donator coins are now spent at the donator shop
+Donator coins have been made stackable
+Updated item configs and .json data for Donator Coins
+The following tasks from Turael have had their experience per kill fixed to match osrs
+-Kalphite Worker (Buffed)
+-Crawling Hand (Nerfed)
+-Ghost (Buffed)
+-Skeleton (Buffed)
+-Chaos Druid (Buffed)
+
+The following tasks from Mazchna have had their experience per kill fixed to match osrs
+-Kalphite Soldier (Buffed)
+-Ice Warrior (Buffed)
+-Ice Giant (Buffed)
+-Cave Bug (Nerfed)
+-Cave Crawler (Buffed)
+-Cyclops (Nerfed)
+
+The following tasks from Duradel have had their experience per kill fixed to match osrs
+-Kalphite Guardian (Buffed)
+-Aviansie (Nerfed)
+-Black demon (Nerfed)
+-Black Dragon (Nefed)
+-Aberrant Spectre/Deviant Specre (Nerfed)
+-Bloodveld (Nerfed)
+-Cave Kraken (Buffed)
+-Dagannoth (Nerfed)
+-Dark Beast (Buffed)
+-Smoke Devil (Buffed)
+-Spirtual Mage (Nerfed)
+-Lava Dragon (Buffed)
+-Hydra (Buffed)
+-Rune Dragon (Buffed)
+-Adamant Dragon (Nerfed)
+Points rewarded per slayer task have been heavily revamped and nerfed to fit the prices of our slayer rewards
+Points rewarded from consecutive tasks have also been heavily revamped
+Farming all herbs has had their experience SIGNIFICANTLY REDUCED so the base experience matches osrs. (Was previously 10x or MORE than the OSRS rate. This was before our experience multiplier was added providing much more experience than needed for all game modes)
+The model for the new donator coins is now fixed and the stack gets bigger as the player gains a larger amount
+Slightly reworked how the scythe of vitur triple hit method is handled
+Rewrote the multi attack system i previously wrote for Scythe of Vitur
+-Method can be used to handle all melee based AoE attacks
+-Fixed the XP spam from using Scythe of Vitur in a multi area
+-Single combat XP drops with the Scythe of Vitur now appear as one drop per player hit, rather than 1 drop per damage splat
+-Fixed another debug message from the triple hit method displaying for players who are not in debug mode
+The following herbs have been removed from the general store to promote end game skilling
+-Toadlfax
+-Snapdragon
+-Torstol
+
+All experience rate multipliers have been updates;
+-Melee stats = 350
+-Ranged = 350
+-Magic = 275
+- WOODCUTTING_EXPERIENCE = 35;
+- MINING_EXPERIENCE = 37;
+- SMITHING_EXPERIENCE = 37;
+- SMITHING_EXPERIENCE = 45;
+- FARMING_EXPERIENCE = 75;
+- FIREMAKING_EXPERIENCE = 37;
+- HERBLORE_EXPERIENCE = 42;
+- FISHING_EXPERIENCE = 40;
+- AGILITY_EXPERIENCE = 50;
+- PRAYER_EXPERIENCE = 45;
+- RUNECRAFTING_EXPERIENCE = 47;
+- CRAFTING_EXPERIENCE = 32;
+- THIEVING_EXPERIENCE = 37;
+- SLAYER_EXPERIENCE = 28;
+- COOKING_EXPERIENCE = 42;
+- FLETCHING_EXPERIENCE = 45;
+- HUNTER_EXPERIENCE = 42;
+- CONSTRUCTION_EXPERIENCE = 50;
+
+3/21/2020 Post-Launch update
+Cave worms can now be pickpockets from the master farmer in raids
+Vote shop has had one more revamp for launch
+Starters given has been cleared
+Best Zulrah time has been cleared
+All accounts deleted
+Krystilla moved closer to the other slayer master spawns in edgeville
+Thieveing stalls added to edgeville home
+Some npcs moved to accompany additon of thieving stalls
+Basic Dungeon Entrance object removed from server region loading (Completely forgot about this once new home hid it behind a building lol)
+Disabled did you know event for know
+Got rid of a couple of unused things in the server startup process
+Nerfed all forms of combat xp again
+The spawn timer of the monster hunt world boss' has been changed to 37 minutes. (was previously 5 minutes for testing)
+Sigmund added next to thieving stalls at edgeville
+
+
+Pyromancer set XP boost has been completely rewritten
+-Each piece gives 2% XP boost
+-If you are wearing the full set you gain an additonal 2% for a total of a 10% xp boost in firemaking
+
+Prospector set XP boost has been completely rewritten
+-Each piece gives 2% XP boost
+-If you are wearing the full set you gain an additonal 2% for a total of a 10% xp boost in mining
+
+Lumberjack set XP boost has been completely rewritten
+-Each piece gives 2% XP boost for a total of 8% xp boost in Woodcutting
+
+Farmers outfit set XP boost has been completely rewritten
+-Each piece gives 2% XP boost for a total of 8% xp boost in Farming
+
+Rogues outfit set XP boost has been completely rewritten
+-Each piece gives 2% XP boost for a total of 8% xp boost in Thieving
+
+
+3/22/2020
+Updated links for the following functions;
+-Vote store
+-Hiscores
+-Donation store
+Fixed an issue with the achievements involved with eating food & dealing damage
+Fixed an issue with HCIM drop rate boost not properly displaying
+Hiscores should now properly update when players log out
+Players can now use the ::claimvotes command to claim vote tickets
+the vote shop now properly functions
+Experience gained from high alching has been cut in half (nerfed to match osrs base experience)
+Experience gained from low alching has been divided by 4(nerfed to match osrs base experience)
+Fixed a bug where certain items were sellable to sigmund for a higher price
+Fixed a wrong ID causing the price of Arcane Prayer Scroll in donator shop to display wrong
+Random monsters in the Revenant Caves no longer drop Ancient emblems and its varints
+Revamped the exchange price for Ancient Emblems and its variants
+Sigmund no longer carries tea in his shop
+Sigmund now carries silk
+Shop price of silk has been updated
+All lessser demon spawns have had their max hit, attack, and defence updated
+Admins should no longer display on the Hiscores
+Ultra Mystery Box has been revamped
+-Many rewards moved around in terms of rarity
+-Tons of new rewards added
+-Some rewards simply had to be removed
+-Common items are now more common than uncommon (Should have always been that way? lol)
+-50/100 chance to hit the common Table when opening an Ultra Mystery Box
+-41/100 chance to hit the uncommon table when opening an Ultra Mystery Box
+-There is now a 9/100 chance to roll the Rare table when opening an Ultra Mystery Box
+Lava dragons now drop Lava Dragon Scales
+Updated the reward on the following Achievements;
+-Dealing damage against npcs (All difficulties)
+-Healing health (All difficulties)
+-Wear a 99 Skillcape
+-Max your account and wear a Max Cape
+Added the following Daily tasks;
+-Pickpocket 150 Men
+-Pickpocket 75 heroes
+-Complete 5 Slayer tasks
+Revamped the amount of things needed to be done to complete all Daily Tasks
+Fixed issues with completing the following daily tasks;
+-Fishing Sharks
+-Crafting Nature Runes
+-Crafting Law Runes
+-Cutting Dragonstones
+-Looting Barrows chests
+Players no longer gain blood money when training the following skills inside of the Wildy resource Area
+-Fishing
+-Woodcutting
+Updated the boundaries players have to be in to deposit items from the looting bag to the bank
+-previously changed this to accompany a different home that came with base that I moved things too
+Updated the message displays when checking prices/buying items from the donator store
+
+-No longer mentions previous currency (Donator Scrolls)
+The following items no longer announce when received as a rare drop;
+-Black Kiteshield
+-Mithril Mace
+-Long Bone
+Fixed an issue where using a needle on any item would go through the hardleather body crafting process
+-This caused mass xp to be gained without having to tan hides or anything
+Removed a random bunch of code randomly giving players coins while mining in the resource area
+Super Potion set can now be opened by using a hammer on it instead of a chisel
+Removed random code that allowed the Super Potion set to be opened by using it on sigmund. (Most random npc lol)
+The spawn location of Callisto has been changed to be more similar to OSRS
+-There was an issue with the previous spawn location causing low level players to die upon teleporting
+Attack and defence of ALL REVENANTS has been updated
+-They all needed a nerf to match OSRS stats, the defence of EVERY revenant was 400 or 450.. even the imp
+Updated all ancient emblem variants message sent when turned in to match the price revamp from this morning
+Vespula and Tekton reward is now handled differently
+-If players has 1 or more empty spaces the reward box will be added to the players inventory
+-If players has no inventory space the reward box will be added on the ground, under the player 
+-The player will be sent a message if they do not have space for the box
+Claimvotes command has been changed to ::reward
+Added a ladder outside of Edgeville bank (South side)
+The new ladder now takes you to Edgeville dungeon
+
+
+3/23/2020
+Fixed a broken item being given from the World Boss spawns (Was meant to be clown shoes)
+Zamorak Mage Ess. Mine teleport now takes you to the proper place
+-This now also completes the proper achievements related to using this teleport
+Updated the interface text for the Smith Steel Knife varrock challenge to be slightly more clear & concise
+You can now steal from the Tea Stall in Varrock
+Kalphite Cave teleport added to Monster teleports tab
+The Kalphite Queen entrance now works from all sides
+Kalphite Queen teleport added to Boss teleports tab
+Vespula/Tekton should now properly spawn every 37 minutes
+Added some more rewards to further diversify the Ancient Casket rewards
+Added empty vials to every shop that you could already find Water-Filled vials
+
+3/23/2020 - After live update
+Krakens rare drops are now more common than Cave Kraken
+Kraken Tentacle drop from Cave Krakens has been nerfed from 1/500 to 1/332
+Completely rewrote the thieving/object for the Varrock Diary task to steal from the Tea Stall
+Updated the items that all ironman modes can purchase from the crafting shop
+Moved the World Boss spawn titled North of Chaos altar
+-Now spawns in 16 wild instead of 13 wild 
+-13 wild was a horrible spawn after I added Elder Chaos Druids
+Revamped shop prices of all items gained from thieving
+Improved the functionality of the darklight/arclight charging
+Revenant imp now properly counts towards Revenant task
+Replaced postie pete reward inside ultra mystery box with Noon pet
+Fixed the Bracelet of Etherum reward from ultra mystery box
+
+3/24/2020
+Boundaries for Tekton Chaos Altar spawn location have been updated
+Reduced the drop rate of Black Mask from Cave Horror drops from 1/110 to 1/87
+Fixed an issue with Admins still displaying on the Hiscores
+Further readjusted the price of Ancient emblem & its variants
+The objects for Draynor rooftop course now properly work
+You no longer need to learn about creating slayer helmets/black masks before learning to imbue
+All old puro puro portal spawns have been removed
+8 new puro puro portal spawn locations have been added around the hunter hills map
+Extra Grace spawn at home has been removed
+Added a puro puro teleport to the Skilling teleport tab
+-This teleport can not be used by ironman accounts
+The ladder used to exit edgeville dungeon now takes you back to edgeville rather than outside taverly dungeon
+Fixed the rotation of the ladder outside Edgeville bank
+The entrance to Edgeville dungeon on the Hill Giants side now properly works
+Leaving Puro Puro via the Wheat Portal now takes players back home
+Hunter shop has been added to the Puro Puro location
+
+The following items have been taken out of PvM caskets
+-Abyssal Whip
+-Ring of Wealth
+
+
+Updated the message sent to players for completeing Slayer tasks on Double Slayer Tuesdays to be more noticeable
+The following items have been added to the Slayer shop
+-Ring of Wealth
+-Ring of Wealth Scroll
+-Darklight
+-Dark totem
+-Royal Seed Pod
+
+Tarn's Diary can now be used on a Salve Amulet to enchant it 
+-Enchanting the amulet increases the damage boost provided by the amulet to 20%
+Raised the item price of Tarn's Diary to 5,000,000 coins
+Lava dragons task from Krystilla is now capped at 25 kills per task
+Obsidian Helmet, platebody & platelegs added to tokkul shop
+You can now properly enchant the Salve amulet (i)
+All forms of Salve Amulet now properly kept on death
+Added ::skull command
+-The command cost 75k to use
+--This is simply because i know people will only be using it inside of Revenant Caves for the drop rate boost
+Amulet of Avarice now notes the following items from Revenant NPC drops
+-Adamant Platelegs
+-Rune Dagger
+-Rune Longsword
+-Dragon Dagger
+-Rune Kiteshield
+-Rune Full Helm
+-Rune Platebody
+-Rune Platelegs
+-Rune Warhammer
+-Dragon Platelegs
+-Dragon Plateskirt
+-Dragon Battleaxe
+-Dragon Longsword
+
+Updated the dialogue for Grace agility npc to include Draynor Rooftop Course
+Updated the dialogue buttons that handle Rooftop Agility teleports
+Tarns diary added to general store & Ironman General store
+
+
+3/27/2020
+Daily point shop now requires points for all items to be bought
+Daily point shop can now be opened by ironmen
+Fixed the messages sent to the server when buying bonus XP from the WOGW
+-Said double even though interface & actual bonus applied is only a 50% bonus (150%, 1.5x)
+Reduced Vespula's max hit from 60 to 42 (21 through prayers)
+Removed some simple errors in the messages sent to players when charging a Braclet of Etherum
+Trading posts temporaraily removed from home for some issues to be invesitgated and fixed
+XP boost of spottier cape boosted to 4% from 2.5%
+Slayer staff has been added to the Mage Arena store
+You can no longer crush lava dragon scales or lava eels with less than 1 free inventory space
+Chance to receive Onyx Bolt tips from crushing lava eels has been changed from 1/325 to 1/215
+All ironman game modes can now buy Eye of Newts from the ironman store
+-The price of Eye of Newts has been made 175 gp for Ironmen modes only
+
+3/28/2020
+Pure essence rock now functions from 5 tiles away as intended
+Superiro Dragon Bones can now be crushed with a pestle & mortar
+Super anti-fire potions can now be made @ 92 Herblore
+-Requires 1 Antifire potion (4) & 1 Crushed Superior Dragon Bone
+Players can now drink a super anti-fire potion and have a anti-fire protection value of 2
+-This means that players can use any weapon and shield combination they want without taking dragonfire damage from most dragons
+Removed the anti-agression of revenant npcs for the time being
+-Sometimes bugs out & prevents revenants from attacking at all
+Fixed a few other bugs related to Bracelet of Etherum
+Location of ::home teleport has been changed
+Removed the trading post @ the prior home I changed from at the last minute as a safety precaution
+The XP of all Rooftop Agility courses has been updated to match OSRS base XP x Our servers XP multiplier
+Farming XP multiplier has been significantly reduced
+Fixed a wrong ID stopping players from mixing their infernal capes with a max cape to create an Infernal Max cape
+An issue has been fixed with the death of the Corporeal Beast boss
+
+3/29/2020
+You can now fish with the infernal harpoon
+Updated the fishing spot data for Infernal Eels
+Arclight special now properly works
+Revenants imps, goblins, and pyrefiends have had the following droptable changes made;
+-Very rare table now has a base rate of 1/750
+-Ancient effigy and Relic removed from the very rare table of these 3 npcs
+-Rare table now has a base rate of 1/525
+
+Revenant hobgoblin, cyclops, hellhound, demon and ork have had the following droptable changes made
+-Minimum amount of Ether has been changed to 3 to further balance out Ether charges through out the game
+-Common table base rate has been changed to 1/3. Previously 1/7
+-Uncommon table changed to 1/8 from 1/14
+-Rare table base rate changed to 1/434. Previously 1/354
+-Very rare table base rate changed to 1/552. Previously 1/471
+
+Revenant Dark beast, Knight, and dragon have had the following droptable changes
+-Common table base rate changed to 1/2. Previously 1/4
+-Uncommon table base rate changed to 1/4. Previously 1/8
+-Rare table base rate changed to 1/348. Previously 1/272
+-Ancient effigy & Ancient relic removed from very rare table 
+--Both of these have been added to the rare table instead
+Added the proper item.cfg and .json data for the Super antifire potions so they are now drinkable
+Removed the banker spawns from donator zone
+Added a fisherman to the donor zone
+The following items have had their shop values, alch values & item protection values changed or maniuplated
+-Ghrazi rapier
+-Scythe of Vitur
+-Sanguinesti Staff
+-Vesta's Spear
+-Vesta's Longsword
+-Vesta's chainbody
+-Vesta's Chainskirt
+-Statius' Warhammer
+-Statius' Full Helmet
+-Statius' Platebody
+-Statius' Platelegs
+-Zuriel's Staff
+-Zuriel's Hood
+-Zuriel's Robetop
+-Zuriel's Robe Bottom
+-Morrigan's Coif
+-Morrigan's Leather body
+-Morrigan's Chaps
+-Justiciar Helmet
+-Justiciar Platebody
+-Justiciar Platelegs
+-Justiciar Set
+-Revenant Cave Teleport
+-Slayer's Enchantment
+-Arcane Prayer Scroll
+-Dexterous Prayer Scroll
+Runecrafting experience has received a slight buff
+
+3/30/2020
+Teleport location of the royal seed pod has been changed
+Dwarven Rock Cake guzzle option now functions properly
+The Western achievement diary task to teleport to Pest Control can now be completed
+Fixed the spam I caused with Admin login messages
+All donator ranks now have a chance to receive extra tokkul while crushing Lava eels
+Lava eels now are crushed with a pestle & mortar rather than a hammer
+You can now uncharge the sanguinesti staff
+
+3/31/2020
+The price of the wrath talisman from the max guild shop has been increased from 5m to 15m
+-This being because the surge spells are so powerful and the runes can be extremely profitable
+The price of the Oily Fishing Rod has been set to 7.5m
+Oily Fishing Rod has been added to the Fishing shop
+All ironman modes can now open the Max Guild Supply Shop
+All ironman modes can now buy the Wrath Talisman, shield right half, and dragon metal lump from the Max Guild Supply Shop
+Fixed an issue causing Black Mask (i) to be unwearable
+Arclight special can now be activated
+Magic Shortbow (Unimbued) special now cost 55% rather than 50%
+-Magic Shortbow (I) special still cost 50% to use
+The following items have all been made stackable
+-Easy clue caskets
+-Medium clue caskets
+-Hard clue caskets
+-Master Clue Caskets
+Getid is now an admin command
+The jail command can now be used by helpers
+The unjail command can now be used by helpers
+Price of eyes of newts changed to 325 gp each for Ironman modes
+Price of Feathers changed to 12 gp for Ironman game modes
+Greatly increased the chance to receive the following items while skilling
+-Easy Clue Geodes
+-Medium Clue Geodes
+-Hard Clue Geodes
+-Easy Clue Bottle
+-Medium Clue Bottle
+-Hard Clue Bottle
+-Hard Clue Nests
+Battle mages no longer hit through prayer
+Stand, Walk, and Run animations changed on the Basket of Eggs
+The following items have been added to the vote shop
+-Posite Pete pet (275)
+-Bunny Ears (125)
+-Basket of Eggs (150)
+-Fixed Device (45)
+-Black Mask (15)
+-Mystery Box (75)
+-Ultra Mystery Box (150)
+-Bracelet of Etherum (u) (45)
+-Ring of Coins (45)
+-Ring of Nature(45)
+-Crystal keys (1)
+-Bounty teleport scroll (125)
+-Ring of Stone (45)
+-Easter Ring (45)
+-Saradomin Banner (45)
+-Zamorak Banner (45)
+-Finally added vote shop values for Medium Pouch & Large Pouch
+
+Ring of stone now transforms you into rocks when worm
+Easter Ring now transform you into a pink & blue egg when worn
+Easter Ring now worn as a weapon to apply special animations
+Stand, Walk, and run animations for the Easter Ring have been added
+Fixed the stand, walk, and run animations of all banners through out the game
+Most Ore Veins have had their chance of depletion halved(Could take twice as long to mine)
+-Rune ore, Amethyst depletion rate have been raised from 0 -> 2. 
+-Gem rock depletion rate unchanged
+Earth warriors have had a droptable added
+
+4/1/2020
+Ultimate and Hardcore ironmen can no longer use the ::setrank command
+The following items now properly count as full masks
+-Larupia hat
+-Black Unicorn Mask
+-White Unicorn Mask
+-Snow Imp Head
+Snape Grass has been converted to the noted version within the regular player general store
+A message is now sent to Hardcore ironmen when they die inside of one of the designated safezones
+If a hardcore ironman inherits a staff rank and dies within a safezone they will no longer have their primary rank updated
+Skeleton Wyverns have been removed from the wilderness slayer master as a slayer task
+Added a large variety of items to the Ultra Mystery Box table including some new custom items
+Added 30-35 new items within the client & cache (lost count :eyeroll: )
+Added some new crowns for ranks & announcements within the client cache
+A couple new npcs have been implemented within the client and cache
+The following items have had the following data added in the .json and cfg files to function server sided (Wear,Proper slots, etc)
+-Pink Boxing Gloves
+-Halloween Boxing Gloves
+-Pink H'ween Mask
+-Lime H'ween Mask
+-Orange H'ween Mask
+-Blue Santa Hat
+-Purple Santa Hat
+-Crash Mask
+-Dragon Kiteshield
+-Dragonstone Kiteshield
+-Lugia pet (& vairants)
+-Gemstone Baby Dragon pets
+-Challenge Mode Helmet
+-Challenge Mode Platebody
+-Challenge Mode Platelegs
+
+4/2/2020
+Wearing an Amulet of Avarice now notes Rune Platebodies dropped from NPCs in the wilderness
+The price of Slayer's Staff is now 150 points in all shops
+The price of Ring of Charos has been reduced to 125 Slayer Points
+You can now use the corresponding heads on Imbued Slayer Helmets to color them
+Updated the drop tables for all 3 god versions of the Battle Mage NPC
+The following Wilderness teleport have been added
+13 new pets added!
+-Hill giants
+-Western Dragons
+-King Black Dragons
+-Greater Demons (GDZ)
+Fixed some issues with Ultimate Ironman death mechanics
+Donator Rank droprates have been changed
+-$10 = 3%
+-$50 = 7%
+-$100 = 12%
+-$250 = 16%
+-$500 = 20%
+-$1000 = 24%
+-$2500 = 28%
+
+4/2/2020 Post update
+Hydra drop rare droptable rates have been changed
+
+
+
+
+$10 Donators have had the following perks added
+-Chance to receive tokkul from crushing lava Eels
+$100 Donators have had the following perks added;
+-5 extra slayer points per task completed
+-25 points to cancel slayer tasks (5 point reduction)
+-90 points to block a slayer tasks (10 point reduction)
+
+10 = 3%
+50 = 7%
+100 = 12%
+250 = 16%
+500 = 20%
+1000 = 24%
+2500 = 28%
+
+These items now properly load as full bodies (Platebodies & robes that should cover arms but DID NOT)
+-Vesta Chainbody
+-Morrigans Leatherbody
+-Snow Imp Costume
+-Spined Body
+-Justicar Chestguard
+-Ancient D'hide Body
+-Armadyl D'hide Body
+-Guthix D'hide Body
+-Saradomin d'hide Body
+-Zamorak D'hide Body
+-Dragon Platebody
+-Varrock armor 1-4 (From Varrock diaries)
+-Blue Wizard Robe
+-Black Wizard Robe
+-Doctors Gown
+-Dragon Chainbody
+
+
+Added discord announcements for
+-agility pet
+-runecrafting pet
+-fishing pet
+-Jad pet (From kills and gambling)
+-Inferno (Currently jad pet)
+-Thieving
+-Mining
+-Hunter
+-Woodcutting
+-Farming
+-Boss Kills
+-Firemaking
+-Corporeal Critter
+_______________________________________________________________________________________________________________________________________
+
+
+AMAZING SUGGESTIONS TO-DO:
+-Somekind of tracker/counter on skilling. For example:
+  -Cutted logs
+  -Lighted logs
+  -Crafted gems
+  -Fished fish
+  -Grown herbs
+  -Hunted Npc's
+  -Crafted runes
+  -Mined rocks
+  -Smithed items
+MAKE A SKILLING BASED BOSS
+-Perhaps use addDamageTaken method from entity.java to apply damage from items used on npc/object
+
+
+Todo: ---- Reading this before uploading for release.. Some of these might be done. - Kid Buu 6/22/2020
+-Make ankous aggressive
+-Update the stats needed to wear all god d'hide items
+-make donator ranks require less killcount to enter GWD boss rooms
+-make kalphite teleport
+-make cerbereus require the proper slayer level to be assigned
+-Revamp pkp shop	your ignore list.
+-make ignore list block yell messages
+-Scythe of vitur and helberds give xp to right skills
+-The max hit of Greater Demons has been lowered to 10 (used to be 16).
+-You can no longer cast Lunar spells on players that are inside the duel arena.
+-Slayer tasks have been revised, especially XP (to match that of OSRS) as well as the descriptions of locations, so it's easier for players.
+-Players can no longer cast vengeance other, heal other, energy transfer or cure other if the other person is in a fight in a single-combat zone.
+-You can now purchase Tarn's diary at the general store for 2M coins to enchant your salve amulet.
+-Insatiable Bloodveld, Mutated Bloodveld and Insatiable mutated Bloodveld now all count toward completion of the Bloodveld slayer task.
+-elite void magic effect
+-Make granite clamp require 50 attack to wear
+Chivlary and piety prayer glows needs reset if you don't have the proper stats
+Revenant imp death animation
+Arclight spec
+Melee zulrah
+Catacombs aggression
+Point shops
+Fix dungeon exit to leave edge dungeon
+Pottery oven @ home
+Remove whip from PvM casket
+Eternal 
+Karuulm Dungeon/Wyrm & Drake progress
+-Added a Death Delay for both wyrms
+-Made Karuulm Dungeon deal damage to players if they climb over rocks to fight any of the npcs on the first floor
+Cave kraken respawns too slow
+Pest control tele not finishing achievement
+
+Make raid capes have different effects/buffs
+- Cape 1 = nothing
+- Cape 2 = 5% damage boost in raids
+- Cape 3 = 5% damage boost in raids + 5% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
+- Cape 4 = 7% damage boost in raids + 5% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
+- Cape 5 = 10% damage boost in raids + 7% chance to heal during combat while fighting Raid Bosses (Minus vanguards & Shamans)
+
+
+_________________________________________________________________________________________________________________________________________________________
+Revenant caves is about 95%
+-Replaced green dragons with Skeletal Wyverns
