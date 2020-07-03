@@ -2,8 +2,6 @@ package ethos.model.players.combat.melee;
 
 import java.util.stream.IntStream;
 
-import com.sun.org.apache.xml.internal.resolver.helpers.Debug;
-
 import ethos.Config;
 import ethos.model.items.EquipmentSet;
 import ethos.model.npcs.NPC;
